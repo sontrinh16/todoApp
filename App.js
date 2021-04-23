@@ -16,7 +16,7 @@ export default class App extends React.Component {
     this.setState({addTodoVisible: !this.state.addTodoVisible})
   }
 
-  renderList = List => {
+  renderList = list => {
     return <Todolist list={list}/>
   }
 
